@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kisme admission le rha bhai"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroupid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radiobuttonyes"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="poly" />
+
+        <RadioButton
+            android:id="@+id/radiobuttonno"
+            android:layout_width="193dp"
+            android:layout_height="65dp"
+            android:text="Zcoer" />
+
+        <RadioButton
+            android:id="@+id/radiobuttonmaybe"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:text="mba" />
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="year"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroupid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/a1"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="Fy" />
+
+        <RadioButton
+            android:id="@+id/a2"
+            android:layout_width="193dp"
+            android:layout_height="65dp"
+            android:text="DSC" />
+
+        <RadioButton
+            android:id="@+id/a3"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:text="Avai" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+</LinearLayout>
